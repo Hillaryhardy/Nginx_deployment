@@ -15,8 +15,8 @@ spec:
         app: nginx-deployment-app
     spec:
       containers:
-      - name: web-app
-        image: nginx:latest
+      - name: nginx-app
+        image: hillarydevops/nginx-deployment
         ports:
         - containerPort: 80
         resources:
